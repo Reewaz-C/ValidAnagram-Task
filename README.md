@@ -41,6 +41,4 @@ This approach avoids sorting and ensures optimal performance.
   - Case-insensitive comparison  
   - Fully commented for clarity  
 
-```java
-// Full commented program is in ValidAnagram.java
 
