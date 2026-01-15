@@ -1,13 +1,13 @@
-# Valid Anagram
+# Valid Anagram Task
 
 ## Problem Description
-Write a program to determine whether two given strings are anagrams of each other.
+Write a function to determine if two provided strings are anagrams of each other.
 
-An **anagram** is a word or phrase formed by rearranging the letters of another word, using all original letters exactly once.
+An anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once
 
 ### Examples
-- Input: `s = "listen"`, `t = "silent"` → Output: `"The strings are anagrams."`
-- Input: `s = "rat"`, `t = "car"` → Output: `"The strings are NOT anagrams."`
+- Input: s = "listen", t = "silent" -> Output: True
+- Input: s = "rat", t = "car" -> Output: False
 
 ---
 
@@ -41,4 +41,23 @@ This approach avoids sorting and ensures optimal performance.
   - Case-insensitive comparison  
   - Fully commented for clarity  
 
+## Time and Space Complexity
 
+- **Time Complexity: O(n)** : single pass through each string to build/check frequency array.
+
+- **Space Complexity: O(1)** : fixed-size array of 26 elements, independent of input size.
+---
+
+## How to Run
+
+**1. Compile the program:**
+
+```
+javac ValidAnagram.java
+```
+
+**2. Run the program**
+
+```
+java ValidAnagram.java
+```
