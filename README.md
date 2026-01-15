@@ -11,7 +11,7 @@ An **anagram** is a word or phrase formed by rearranging the letters of another 
 
 ---
 
-## Approach / Algorithm
+## Approach
 
 1. **Check Lengths**  
    - If the lengths of the two strings are different, they **cannot** be anagrams.
